@@ -10,7 +10,7 @@ use Symfony\Component\Routing\RequestContext;
  * This class has been auto-generated
  * by the Symfony Routing Component.
  */
-class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\RedirectableUrlMatcher
+class appDevDebugProjectContainerUrlMatcher extends \Symfony\Component\Routing\Matcher\RedirectableUrlMatcher
 {
     /**
      * Constructor.

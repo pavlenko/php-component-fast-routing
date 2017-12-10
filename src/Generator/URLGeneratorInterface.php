@@ -27,5 +27,12 @@ interface URLGeneratorInterface
      */
     const NETWORK_PATH = 3;
 
+    /**
+     * @param string $name
+     * @param array  $parameters
+     * @param int    $referenceType
+     *
+     * @return string
+     */
     public function generate($name, array $parameters = [], $referenceType = self::ABSOLUTE_PATH);
 }

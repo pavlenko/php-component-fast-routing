@@ -7,6 +7,11 @@ use PE\Component\CacheFile\CacheFile;
 class Cache
 {
     /**
+     * @var string
+     */
+    private $path;
+
+    /**
      * @var DumperInterface
      */
     private $dumper;

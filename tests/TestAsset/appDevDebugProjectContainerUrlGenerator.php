@@ -10,7 +10,7 @@ use Psr\Log\LoggerInterface;
  * This class has been auto-generated
  * by the Symfony Routing Component.
  */
-class appDevDebugProjectContainerUrlGenerator extends Application\UrlGenerator
+class appDevDebugProjectContainerUrlGenerator extends \Symfony\Component\Routing\Generator\UrlGenerator
 {
     private static $declaredRoutes;
 
